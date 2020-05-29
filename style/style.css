@@ -21,3 +21,15 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.nav-item-text {
+	color: #63ace5;
+}
+
+.nav-item-text:hover {
+	color: #1976d2;
+}
+
+.nav-item-text.active {
+	color: #1976d2;
+}
