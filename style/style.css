@@ -10,6 +10,7 @@ body {
 	height: auto;
 	margin: auto;
 	margin-top: 7vh;
+	margin-bottom: 7vh;
 	padding: 10px;
 	border-radius: 50px;
 	background-color: white;
@@ -68,6 +69,12 @@ body {
 	margin-left: 45px;
 }
 
+#showpic {
+	width: 65%;
+	margin: auto;
+	display: block;
+}
+
 .fb-page {
 	margin-right: 10px;
 }
@@ -112,5 +119,11 @@ body {
 	}
 	#left-col {
 		width: 100%;
+	}
+	#showpic {
+		width: 80%;
+	}
+	.carousel {
+		width: 80%;
 	}
 }
