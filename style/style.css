@@ -6,8 +6,8 @@ body {
 }
 
 #main-float {
-	width: 80%;
-	height: 85vh;
+	width: 85%;
+	height: auto;
 	margin: auto;
 	margin-top: 7vh;
 	padding: 10px;
@@ -24,6 +24,7 @@ body {
 
 .nav-item-text {
 	color: #63ace5;
+	font-size: 18px;
 }
 
 .nav-item-text:hover {
@@ -32,4 +33,84 @@ body {
 
 .nav-item-text.active {
 	color: #1976d2;
+}
+
+#main-row {
+	display: flex;
+}
+
+.column {
+	height: 100%;
+}
+
+#left-col {
+	width: 80%;
+	padding: 30px;
+}
+
+#right-col {
+	width: 20%;
+	padding: 30px;
+}
+
+.carousel {
+	width: 65%;
+	margin: auto;
+	border-radius: 30px;
+    overflow: hidden;
+}
+
+#recent-shows-title {
+	text-align: center;
+}
+
+#show-list {
+	margin-left: 45px;
+}
+
+.fb-page {
+	margin-right: 10px;
+}
+
+.link-cont {
+  width: 100%;
+}
+
+.links {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: gray;
+  text-decoration: none;
+}
+
+.link {
+  color: inherit;
+  display: inline;
+  padding: 5px;
+  padding-bottom: 10px;
+  text-decoration: none;
+
+}
+
+.link:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 2000px) {
+ 	#right-col {
+ 		width: 30%;
+ 	}
+ 	#left-col {
+ 		width: 70%;
+ 	}
+}
+
+@media only screen and (max-width: 1000px) {
+	#right-col {
+		display: none;
+	}
+	#left-col {
+		width: 100%;
+	}
 }
