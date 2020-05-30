@@ -110,7 +110,7 @@ body {
 }
 
 .board-member-pic {
-	width: 100%;
+	width: 120%;
 	padding-top: 7px;
 }
 
@@ -148,5 +148,13 @@ body {
 	}
 	.carousel {
 		width: 80%;
+	}
+
+	.board-member-container {
+		display: inline-block;
+	}
+	.board-member-pic {
+		width: 70%;
+		padding: 15px;
 	}
 }
